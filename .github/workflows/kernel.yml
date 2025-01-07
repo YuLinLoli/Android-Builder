@@ -87,8 +87,8 @@ jobs:
       # Install prerequisites for Ubuntu
       - name: ⭐ Install prerequisites
         run: |
-          echo "deb [trusted=yes] https://mirrors.163.com/ubuntu/ stable main" > /etc/apt/sources.list.d/new-source.list
-          echo "deb [trusted=yes] https://tw.archive.ubuntu.com/ubuntu/ stable main" > /etc/apt/sources.list.d/new-source.list
+          sudo echo "deb [trusted=yes] https://mirrors.163.com/ubuntu/ stable main" > /etc/apt/sources.list.d/new-source.list
+          sudo echo "deb [trusted=yes] https://tw.archive.ubuntu.com/ubuntu/ stable main" > /etc/apt/sources.list.d/new-source.list
           sudo apt-get update
           sudo apt-get install -y curl git ftp lftp wget libarchive-tools ccache python2 python2-dev python3
           sudo apt-get install -y pngcrush schedtool dpkg-dev liblz4-tool make optipng maven device-tree-compiler 
