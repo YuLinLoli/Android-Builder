@@ -4,9 +4,9 @@
 
 ---
 
-English | [中文文档](./README.zh_CN.md)
+[English](./README_EN) | 中文文档
 
-![License](https://img.shields.io/static/v1?label=License&message=BY-NC-SA&logo=creativecommons&color=green)
+![License](https://img.shields.io/static/v1?label=许可证&message=BY-NC-SA&logo=creativecommons&color=green)
 ![Language](https://img.shields.io/github/languages/top/DogDayAndroid/Android-Builder)
 ![Issues](https://img.shields.io/github/issues/DogDayAndroid/Android-Builder)
 ![Pull Requests](https://img.shields.io/github/issues-pr/DogDayAndroid/Android-Builder)
@@ -16,28 +16,28 @@ English | [中文文档](./README.zh_CN.md)
 
 </div>
 
-## Preface
+## 前言
 
-Unfortunately, I accidentally deleted the original repository on the night of **2023/11/13**, so you may not be able to find it now if you `fork` or `star` it before.
+不幸的是，我在 **2023/11/13** 晚上不小心删除了原始存储库，因此如果您之前 `fork` 或 `star` 它，现在可能无法找到它。
 
-After learning from the experience, I decided to make the project more perfect and support more content. Currently, the content that this project will support is as follows:
+痛定思痛，我决定让项目更加完善，支持更多的内容。 目前，该项目将支持的内容如下：
 
-- You can enter the **[<kbd> <br/>  Kernel  <br/> </kbd>](./Kernel/)** directory in this repository to configure and build the kernel.
-- Clone this repository and enter **[<kbd> <br/>  System  <br/> </kbd>](./System/)** to develop and compile the system.
-- Entering the **[<kbd> <br/>  TWRP  <br/> </kbd>](./TWRP/)** folder of this project can help you quickly build TWRP.
+- 利用 `Github Actions` 来进行内核构建，这部分内容贮藏在 **[<kbd> <br/>  Kernel  <br/> </kbd>](./Kernel/)** 文件夹下。
+- 克隆本项目到本地后，您可以用脚本自动构建 `LineageOS`，这部分内容贮藏在 **[<kbd> <br/>  System  <br/> </kbd>](./System/)** 文件夹中。
+- 利用 `Github Actions` 来进行 `TWRP` 构建，这部分内容贮藏在 **[<kbd> <br/>  TWRP  <br/> </kbd>](./TWRP/)** 文件夹下。
 
-The specific content of each project will be displayed separately under each folder. You can enter these folders to view their individual readme files to learn how to use them.
+每个项目的具体内容会在每个文件夹下单独显示。 您可以进入这些文件夹查看其各自的自述文件以了解如何使用它们。
 
-## Contributor
+## 贡献者
 
 [![Contributor](https://contrib.rocks/image?repo=DogDayAndroid/Android-Builder)](https://github.com/DogDayAndroid/Android-Builder/graphs/contributors)
 
-## Star history
+## 星标历史
 
 [![Star History](https://starchart.cc/DogDayAndroid/Android-Builder.svg)](https://starchart.cc/DogDayAndroid/Android-Builder)
 
-## License
+## 许可证
 
 [![by-nc-sa](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+本作品根据 [知识共享署名-非商业性-相同方式共享 4.0 国际许可](http://creativecommons.org/licenses/by-nc-sa/4.0/) 获得许可。
