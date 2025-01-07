@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "Mix2sKernelPoweredByYuLin",
-      "repo": "https://github.com/YuLinLoli/D8G_Kernel",
-      "branch": "main",
+      "repo": "https://github.com/lonelystar9x/android_kernel_xiaomi_sdm845",
+      "branch": "lineage-21-SU",
       "device": "polaris",
       "defconfig": "polaris_defconfig"
     },
@@ -29,7 +29,7 @@
       "use": true,
       "release": true
     },
-    "enableKernelSU": false,
+    "enableKernelSU": true,
     "enableLXC": false
   }
 ]
