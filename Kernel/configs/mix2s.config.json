@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Mix2sKernelPoweredByYuLin",
-      "repo": "https://github.com/Evolution-XYZ-Devices/kernel_xiaomi_sdm845",
-      "branch": "thirteen-KSU",
-      "device": "polaris",
-      "defconfig": "polaris_defconfig"
+      "name": "Mix4sKernelPoweredByYuLin",
+      "repo": "https://github.com/ruoqing501/xiaomi_kernel_odin",
+      "branch": "master",
+      "device": "odin",
+      "defconfig": "odin_defconfig"
     },
     "toolchains": [
       {
@@ -22,8 +22,7 @@
       "externalCommands": {
         "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
-        "CLANG_TRIPLE": "aarch64-linux-gnu-",
-        "LDFLAGS": "-fuse-ld=bfd"
+        "CLANG_TRIPLE": "aarch64-linux-gnu-"
       }
     },
     "AnyKernel3": {
